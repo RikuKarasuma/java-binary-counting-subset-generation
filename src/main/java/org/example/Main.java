@@ -47,8 +47,7 @@ public class Main {
             final var unique_combo_to_store_list = new TreeSet<Integer>();
             for ( int x = 0; x < subset_length; x ++) {
 
-                // If we have a base 10 number confirm presence of unique number,
-                // otherwise Zero.
+                // If we have a bit set. Confirm presence of number.
                 if (subsets[i] % 10 == 1)
                     unique_combo_to_store_list.add(subset_to_generate_combos_from[x]);
 
